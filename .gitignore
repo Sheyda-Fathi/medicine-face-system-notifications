@@ -1,0 +1,33 @@
+# --- Python ---
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.Python
+*.egg-info/
+build/
+dist/
+
+# --- Environment / secrets ---
+.env
+.env.local
+*.env
+
+# --- Patient photos & biometric data ---
+media/patients/*
+!media/patients/.gitkeep
+media/patients/seed/*
+!media/patients/seed/.gitkeep
+
+# --- Demo video---
+test_demo.mp4
+*.mp4
+
+# --- IDE / OS junk ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Streamlit local cache ---
+.streamlit/
